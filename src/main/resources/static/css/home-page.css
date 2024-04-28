@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-color: #9dd9c7;
+}
+
+.container h1 {
+	position: relative;
+	text-align: center;
+	top: 10%;
+}
+
+.containt {
+	margin: 10% auto;
+}
+
+.game-rule {
+	border-radius: 10px;
+	border: 5px solid #bb5d83;
+	width: 400px;
+	padding: 8px 10px 8px 0px;
+	box-shadow: 5px 5px 10px #d7739c;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.game-rule h2 {
+	text-align: center;
+}
+
+.p1 ul li {
+	margin-bottom: 8px;
+}
+.foot{
+	margin-top: 30px;
+}
+#form {
+	display: flex;
+	justify-content: center;
+}
+
+.foot button {
+	background-color: #c84e7a;
+	color: aliceblue;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px palevioletred;
+	width: 60px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-top: 8px;
+	cursor: pointer;
+}
